@@ -23,7 +23,7 @@ jobs:
 
       - name: Install JupyterLite
         run: |
-          pip install jupyterlite jupyterlite-pyodide-kernel
+          pip install jupyterlite jupyterlite-pyodide-kernel jupyter-server
 
       - name: Build JupyterLite site
         run: |
