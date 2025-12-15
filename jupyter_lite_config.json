@@ -3,5 +3,12 @@
   "jupyter-config-data": {
     "appName": "JupyterLite Demo",
     "disabledExtensions": []
+  },
+  "LiteBuildConfig": {
+    "outputDir": "_output",
+    "contents": ["notebooks"],
+    "pypi_packages": [
+      "ipywidgets"
+    ]
   }
 }
